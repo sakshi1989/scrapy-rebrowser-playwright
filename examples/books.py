@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 from typing import Generator, Optional
 
-from playwright.async_api import Page
+from rebrowser_playwright.async_api import Page
 from scrapy import Spider
 from scrapy.http.response import Response
 

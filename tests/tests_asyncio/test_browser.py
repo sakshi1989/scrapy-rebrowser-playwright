@@ -16,8 +16,8 @@ from unittest import IsolatedAsyncioTestCase
 
 import psutil
 import pytest
-from playwright._impl._errors import TargetClosedError
-from playwright.async_api import async_playwright
+from rebrowser_playwright._impl._errors import TargetClosedError
+from rebrowser_playwright.async_api import async_playwright
 from scrapy import Request, Spider
 
 from tests import allow_windows, make_handler, assert_correct_response

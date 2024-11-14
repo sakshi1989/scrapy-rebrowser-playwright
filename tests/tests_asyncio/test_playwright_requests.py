@@ -7,7 +7,7 @@ from unittest import IsolatedAsyncioTestCase
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
-from playwright.async_api import (
+from rebrowser_playwright.async_api import (
     Dialog,
     Error as PlaywrightError,
     Page as PlaywrightPage,

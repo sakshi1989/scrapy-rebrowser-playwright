@@ -8,7 +8,7 @@ import pytest
 from scrapy import Spider, Request
 from scrapy.http.response.html import HtmlResponse
 
-from playwright.async_api import Page
+from rebrowser_playwright.async_api import Page
 from scrapy_playwright.page import PageMethod
 
 from tests import allow_windows, make_handler, assert_correct_response
